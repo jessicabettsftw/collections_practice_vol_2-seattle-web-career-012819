@@ -86,7 +86,6 @@ def organize_schools(array)
   #pattern [{school =>{:location => city}}]
   new_array = []
   location_array = (array.values()).uniq
-  puts location_array
   location_array2 = []
   
   location_array.each do |item|
@@ -97,7 +96,9 @@ def organize_schools(array)
   end
   
   puts location_array2
-  array.each do |school|
-    #puts school
+  location_array2.each do |city|
+    array.each do |school|
+      #check to see if key of location_array2 == city 
+      
   end
 end
