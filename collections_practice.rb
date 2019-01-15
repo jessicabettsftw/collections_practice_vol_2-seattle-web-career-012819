@@ -97,12 +97,15 @@ def organize_schools(array)
   
   puts location_array2
   location_array2.each do |city|
+    city_array = []
     array.each do |school|
       #check to see if key of location_array2 == city 
       #puts city.keys
       if city.keys == school[1].values
-        puts "yes"
+        puts "add to location_array2 array"
+        city_array.push(school[0])
       end
     end
+    location_array2(city.keys) = city_array
   end
 end
