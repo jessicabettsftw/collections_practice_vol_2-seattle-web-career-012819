@@ -87,7 +87,7 @@ def organize_schools(array)
   new_array = []
   location_array = (array.values()).uniq
   location_array2 = location_array.values_at(:location)
-  puts location_array
+  puts location_array2
   array.each do |school|
     #puts school
   end
