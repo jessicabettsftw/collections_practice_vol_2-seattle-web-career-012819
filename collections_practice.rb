@@ -100,5 +100,7 @@ def organize_schools(array)
     array.each do |school|
       #check to see if key of location_array2 == city 
       puts city.keys
+    end
+  end
   end
 end
