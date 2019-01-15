@@ -99,7 +99,8 @@ def organize_schools(array)
   location_array2.each do |city|
     array.each do |school|
       #check to see if key of location_array2 == city 
-      puts city.keys
+      #puts city.keys
+      puts school.values()
     end
   end
 end
