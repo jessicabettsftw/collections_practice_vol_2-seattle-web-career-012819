@@ -94,19 +94,16 @@ def organize_schools(array)
   end
   location_array2 = location_array2.sort()
   
-  location_array3 = []
+  location_array3 = Hash.new
 
   location_array2.each do |city|
-    city_map = Hash.new
     city_array = []
     array.each do |school|
       if city == school[1].values.join()
         city_array.push(school[0])
       end
     end
-    #puts city_array
-    city_map[city] = city_array
-    location_array3.push(city_map)
+    location_array3[city] = city_array
   end
   location_array3
 end
