@@ -93,6 +93,7 @@ def organize_schools(array)
     location_array2.push(city)
   end
   location_array2.sort
+  puts location_array2
   location_array3 = []
 
   location_array2.each do |city|
