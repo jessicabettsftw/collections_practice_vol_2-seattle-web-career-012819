@@ -99,13 +99,11 @@ def organize_schools(array)
     city_map = Hash.new
     city_array = []
     array.each do |school|
-      #puts "#{city} == #{school[1].values.join()}"
       if city == school[1].values.join()
-        puts "#{city} == #{school[1].values}"
         city_array.push(school[0])
       end
     end
-    puts city_array
+    #puts city_array
     #city_map(city) = city_array
     #location_array3.push(city_map)
   end
