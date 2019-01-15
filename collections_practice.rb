@@ -102,5 +102,4 @@ def organize_schools(array)
       puts city.keys
     end
   end
-  end
 end
