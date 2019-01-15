@@ -100,11 +100,11 @@ def organize_schools(array)
     city_array = []
     array.each do |school|
       if city == school[1].values
-        puts "add to location_array2 array"
+        puts "#{city} == #{school[1].values}"
         city_array.push(school[0])
       end
     end
-    city_map(city) = city_array
-    location_array3.push(city_map)
+    #city_map(city) = city_array
+    #location_array3.push(city_map)
   end
 end
