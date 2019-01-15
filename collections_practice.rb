@@ -105,7 +105,7 @@ def organize_schools(array)
         city_array.push(school[0])
       end
     end
-    #city_map(city) = city_array
+    city_map(city) = city_array
     #location_array3.push(city_map)
   end
 end
