@@ -93,10 +93,10 @@ def organize_schools(array)
     location_array2.push(city)
   end
   
-  
-  puts location_array2
+  location_array3 = []
+
   location_array2.each do |city|
-    city_array = []
+    city_map = Hash.new
     array.each do |school|
       if city == school[1].values
         puts "add to location_array2 array"
