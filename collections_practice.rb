@@ -93,7 +93,7 @@ def organize_schools(array)
     city = item.fetch(:location)
     new_hash = Hash.new_hash
     new_hash[city] = []
-    location_array2.push(city)
+    location_array2.push(new_hash)
   end
   
   puts location_array2
